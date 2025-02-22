@@ -6,7 +6,7 @@ def ask_side_length():
     root.withdraw()  # Hide the main window
 
     # Ask for the side length in mm
-    side_length_mm = simpledialog.askfloat("Input", "Enter the side length of the square (in mm):")
+    side_length_mm = simpledialog.askfloat("Inpust", "Enter the side length of the square (in mm):")
 
     if side_length_mm is not None:
         draw_square(side_length_mm)  # Call function to draw square
