@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import simpledialog
 
-import Humaira  
+import circle  
 import Saleem
 
 
@@ -30,7 +30,7 @@ class ButtonApp:
 
         print('working')
 
-        Humaira.print_message()
+        circle.print_message()
 
         
     def button3_action(self):
